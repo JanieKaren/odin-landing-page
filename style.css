@@ -1,11 +1,16 @@
 *{
     font-family: Roboto;
+    margin: 0;
     /*Just for sectioning*/
     border: 1px solid red;
 }
 
+header, .hero, .information, .quote, .contact, footer{
+    padding: 2rem 5rem;
+}
 header, .hero, footer{
     background-color: #1F2937;
+    
 }
 
 
@@ -45,3 +50,22 @@ h1{
     color:#1F2937;
     font-weight: light;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
