@@ -1,0 +1,47 @@
+*{
+    font-family: Roboto;
+    /*Just for sectioning*/
+    border: 1px solid red;
+}
+
+header, .hero, footer{
+    background-color: #1F2937;
+}
+
+
+.header-logo-text{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+h1{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+
+.hero-sec-text, header ul li a {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.information h2{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+
+.hero button, .call-to-action{
+    background-color: #3882F6;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote p{
+    font-size: 36px;
+    font-style:italic;
+    color:#1F2937;
+    font-weight: light;
+}
