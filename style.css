@@ -2,17 +2,23 @@
     font-family: Roboto;
     margin: 0;
     /*Just for sectioning*/
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
-header, .hero, .information, .quote, .contact, footer{
+header, footer{
     padding: 2rem 5rem;
+}
+
+section{
+    padding: 5rem 5rem;
 }
 header, .hero, footer{
     background-color: #1F2937;
     
 }
-
+.hero p{
+    padding-block: 20px;
+}
 
 .header-logo-text{
     font-size: 24px;
@@ -34,6 +40,7 @@ h1{
     font-size: 36px;
     color:#1F2937;
     font-weight: 900;
+    margin-bottom: 12px;
 }
 
 .hero button, .call-to-action{
@@ -42,6 +49,8 @@ h1{
 
 .quote{
     background-color: #E5E7EB;
+
+    
 }
 
 .quote p{
@@ -49,6 +58,15 @@ h1{
     font-style:italic;
     color:#1F2937;
     font-weight: light;
+    padding-inline: 50px;
+}
+
+.quoter{
+    font-size: 16px !important;  
+    font-weight: 900;
+    text-align: end;
+    margin-top: 10px;  
+    font-style:normal!important;
 }
 
 header{
@@ -68,10 +86,12 @@ a{
     text-decoration: none;
 }
 
+
 .hero{
     display: flex;
     align-items: stretch;
     gap: 20px;
+    
 }
 
 .hero img{
@@ -82,4 +102,56 @@ a{
 
 .left, .right{
     flex:1;
+}
+
+button {
+    text-align: center;
+    padding: 10px 60px;
+    border-radius: 12px;
+    color: #E5E7EB;
+    
+}
+
+.information{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.info{
+    flex: 1 1 200px;
+    text-align: center;
+    max-width: 220px;
+}
+.info img{
+    width: 200px;           
+    height: 200px;          
+    object-fit: cover;     
+    border-radius: 8px;
+    border: 2px solid #3882F6
+}
+
+.call-to-action{
+ padding: 30px 60px;
+ border-radius: 12px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.contact {
+    color: #E5E7EB;
+}
+
+.call-to-action button{
+    background-color:#3882F6 ;
+    border: 1px solid #E5E7EB;
+}
+
+footer{
+    text-align: center;
+    color: #E5E7EB;
 }
